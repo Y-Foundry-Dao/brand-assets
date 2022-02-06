@@ -1,14 +1,13 @@
-# brand-assets
-Brand Assets for Y-Foundry DAO
+# Brand Assets for Y-Foundry DAO
 
-### How to Navigate this data:
+## How to Navigate this data:
 
-###### brand
+### ***brand***
 Brand holds logo and tagline specific resources
 
-###### images
+### ***images***
 Holds the utility of the brand assets
 Headers, Email Sig, Emojis
 
-###### assets
+### ***assets***
 holds the core 3rd party created components utilized to create the brand and image assets
