@@ -2,6 +2,12 @@
 
 ## How to Navigate this data:
 
+
+```assets```
+  holds the core 3rd party created components utilized to create the brand and image assets
+      
+      fonts
+
 ```brand```
   Brand holds logo and tagline specific resources
 
@@ -9,8 +15,3 @@
   Holds the utility of the brand assets
       
       Headers, Email Sig, Emojis
-
-```assets```
-  holds the core 3rd party created components utilized to create the brand and image assets
-      
-      fonts
