@@ -7,6 +7,7 @@ function NavLinks() {
         <li><StyledLink >about</StyledLink></li>
         <li><StyledLink >blog</StyledLink></li>
         <li><StyledLink >join community</StyledLink></li>
+        <li><StyledLink >brand kit</StyledLink></li>
       </Ul>
     </Nav>
   )
