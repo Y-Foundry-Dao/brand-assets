@@ -1,14 +1,14 @@
 import yLogo from '../../../assets/logo_orange.svg';
 import styled from 'styled-components';
 import NavLinks from './NavLinks';
-// import Burger from './burger/Burger'
+import Burger from './burger/Burger'
 
 function HeaderBar() {
   return (
     <Header id='home'>
       <Logo src={yLogo} alt={"Y logo"} />
       <NavLinks />
-      {/* <Burger /> */}
+      <Burger />
     </Header>
   )
 }
