@@ -15,3 +15,8 @@
   Holds the utility of the brand assets
       
       Headers, Email Sig, Emojis
+
+```brand-page```
+  React-based website displaying brand assets and approved use cases
+
+      ```yarn && yarn build && yarn start```
