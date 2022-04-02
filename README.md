@@ -19,4 +19,4 @@
 ```brand-page```
   React-based website displaying brand assets and approved use cases
 
-      ```yarn && yarn build && yarn start```
+      yarn && yarn build && yarn start
