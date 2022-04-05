@@ -2,14 +2,12 @@ import styled from 'styled-components';
 import DownloadButton from './DownloadButton';
 import logo_orange from '../assets/logo_orange.svg'
 import logo_download from '../assets/logo_download.png'
-import BackgroundComposition from './sections/background/BackgroundComposition';
 import Ellipse_12 from '../assets/Ellipse_12.svg'
 
 function IconOnly() {
   return (
       <Icon id='icon_download_section'>
-        <BackgroundComposition />
-        <Header>
+        <Main>
             <Subtitle>App Assets</Subtitle>
             <Title><Orange>Icon</Orange> Only</Title>
             <DownloadSection>
@@ -18,7 +16,7 @@ function IconOnly() {
                 </ImageHolder>
                 <DownloadButton name="DOWNLOAD ICON" download_file={logo_download} download_title={downloadName} />
             </DownloadSection>
-        </Header>
+        </Main>
       </Icon>
   );
 }
@@ -29,7 +27,6 @@ const Orange = styled.span`
 `
 
 const Icon = styled.section`
-  padding-top: 5%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -37,7 +34,7 @@ const Icon = styled.section`
   display: flex;
 `
 
-const Header = styled.section`
+const Main = styled.section`
   display: flex;
   flex-direction: column;
   width: 70%;
@@ -48,15 +45,12 @@ const DownloadSection = styled.section`
   padding: 10px;
   display: flex;
   flex-direction: column;
-  gap: 10px;
-  align-items: center;
   justify-content: center;
+  align-items: center;
+  gap: 10px;
   @media(min-width: 768px){
     flex-direction: row;
-    gap: 10px;
-  }
-  @media(min-width: 1024px){
-    flex-direction: row;
+    align-items: center;
     gap: 0px;
   }
 `
@@ -64,7 +58,6 @@ const DownloadSection = styled.section`
 const Subtitle = styled.h3`
   // mobile view
   margin: 0px;
-
   text-align: center;
   font-size: 14px;
   @media(min-width: 768px){
@@ -95,7 +88,12 @@ const ImageHolder = styled.div`
   width: 120px;
   height: 120px;
   @media(min-width: 768px){
-    margin-left: 15%;
+    margin-left: 5%;
+    width: 150px;
+    height: 150px;
+  }
+  @media(min-width: 1024px){
+    margin-left: 10%;
     width: 150px;
     height: 150px;
   }
