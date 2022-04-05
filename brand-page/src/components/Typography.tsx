@@ -27,7 +27,6 @@ const Section = styled.section`
   border-radius: 27px;  
   display: flex;
   margin: auto;
-  background-color: ${props => `${props.theme.colors.black}`};
   border: 1px solid ${props => `${props.theme.colors.orange}`};
   @media(min-width: 756px){
     width: 75%;
