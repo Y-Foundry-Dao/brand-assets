@@ -27,6 +27,7 @@ const Orange = styled.span`
 `
 
 const Icon = styled.section`
+  padding: 100px;
   flex-direction: column;
   justify-content: center;
   align-items: center;

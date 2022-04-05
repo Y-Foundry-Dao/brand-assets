@@ -23,7 +23,6 @@ const LandingPage = styled.div`
   align-items: center;
   max-width: 100% !important;
   overflow-x: hidden !important;
-  gap: 100px;
 `
 
 export default App;

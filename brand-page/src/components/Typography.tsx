@@ -22,16 +22,15 @@ const Orange = styled.span`
 `
 
 const Section = styled.section`
-justify-content: center; 
+  justify-content: center; 
   width: 70%;
   border-radius: 27px;  
   display: flex;
   margin: auto;
   background-color: ${props => `${props.theme.colors.black}`};
   border: 1px solid ${props => `${props.theme.colors.orange}`};
-
   @media(min-width: 756px){
-    width: 80%;
+    width: 75%;
     height: 236px; 
   }
   @media(min-width: 1024px){
