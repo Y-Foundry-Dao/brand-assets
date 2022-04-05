@@ -27,7 +27,7 @@ const Orange = styled.span`
 `
 
 const Icon = styled.section`
-  padding: 100px;
+  padding-top: 10%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
@@ -86,8 +86,8 @@ const ImageHolder = styled.div`
   justify-content: center;
   width: 52%;
   padding: 20px;
-  width: 120px;
-  height: 120px;
+  width: 110px;
+  height: 110px;
   @media(min-width: 768px){
     margin-left: 5%;
     width: 150px;

@@ -3,6 +3,7 @@ import HeaderBar from "./components/sections/navigation/HeaderBar";
 import IconOnly from "./components/IconOnly";
 import Typograpghy from "./components/Typography";
 import BackgroundComposition from './components/sections/background/BackgroundComposition';
+import BestPractice from './components/BestPractice';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <BackgroundComposition />
       <HeaderBar/>
       <IconOnly/>
+      <BestPractice/>
       <Typograpghy/>
     </LandingPage>
 
