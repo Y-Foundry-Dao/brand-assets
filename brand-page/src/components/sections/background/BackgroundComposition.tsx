@@ -1,9 +1,9 @@
 import styled from "styled-components";
 
-import RadialGradientBottom from "./RadialGradientBottom";
-import RadialGradientTop from "./RadialGradientTop";
-import starsLarge from '../../../assets/StarsLarge.svg'
-import starsSmall from '../../../assets/StarsSmall.svg'
+import RadialGradientBottom from "components/sections/background/RadialGradientBottom";
+import RadialGradientTop from "components/sections/background/RadialGradientTop";
+import starsLarge from 'assets/StarsLarge.svg';
+import starsSmall from 'assets/StarsSmall.svg';
 
 export default function BackgroundComposition() {
   return(

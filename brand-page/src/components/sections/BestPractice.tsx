@@ -1,8 +1,8 @@
 import styled from "styled-components";
-import VersionA from "../assets/VersionA.svg";
-import VersionB from "../assets/VersionB.svg";
-import VersionC from "../assets/VersionC.svg";
-import VersionD from "../assets/VersionD.svg";
+import VersionA from "assets/VersionA.svg";
+import VersionB from "assets/VersionB.svg";
+import VersionC from "assets/VersionC.svg";
+import VersionD from "assets/VersionD.svg";
 
 
 function BestPractice () {

@@ -1,9 +1,10 @@
 import styled from 'styled-components';
-import HeaderBar from "./components/sections/navigation/HeaderBar";
-import IconOnly from "./components/IconOnly";
-import Typograpghy from "./components/Typography";
-import BackgroundComposition from './components/sections/background/BackgroundComposition';
-import BestPractice from './components/BestPractice';
+import HeaderBar from 'components/sections/navigation/HeaderBar';
+import IconOnly from 'components/sections/IconOnly';
+import Typograpghy from 'components/sections/Typography';
+import BackgroundComposition from 'components/sections/background/BackgroundComposition';
+import BestPractice from 'components/sections/BestPractice';
+import ColorPalette from 'components/sections/ColorPalette';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <HeaderBar/>
       <IconOnly/>
       <BestPractice/>
+      <ColorPalette/>
       <Typograpghy/>
     </LandingPage>
 

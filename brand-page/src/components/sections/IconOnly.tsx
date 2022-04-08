@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import DownloadButton from './DownloadButton';
-import logo_orange from '../assets/logo_orange.svg'
-import logo_download from '../assets/logo_download.png'
-import Ellipse_12 from '../assets/Ellipse_12.svg'
+import DownloadButton from 'components/DownloadButton';
+import logo_orange from 'assets/logo_orange.svg'
+import logo_download from 'assets/logo_download.png'
+import Ellipse_12 from 'assets/Ellipse_12.svg'
 
 function IconOnly() {
   return (

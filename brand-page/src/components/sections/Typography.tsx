@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import DownloadButton from './DownloadButton';
+import DownloadButton from 'components/DownloadButton';
 
 function Typography () {
     return(
@@ -9,7 +9,7 @@ function Typography () {
             <Title><Orange>Typography</Orange></Title>
                <DownloadSection>
                  <FontHolder>Kodchasan</FontHolder>
-                <DownloadButton name="DOWNLOAD FONT" download_file={require("../assets/fonts/Kodchasan.zip")} download_title={downloadName} />
+                <DownloadButton name="DOWNLOAD FONT" download_file={require("../../assets/fonts/Kodchasan.zip")} download_title={downloadName} />
             </DownloadSection>
           </Main>
         </Section>
