@@ -5,12 +5,14 @@ import Typograpghy from 'components/sections/Typography';
 import BackgroundComposition from 'components/sections/background/BackgroundComposition';
 import BestPractice from 'components/sections/BestPractice';
 import ColorPalette from 'components/sections/ColorPalette';
+import LogoSection from 'components/sections/LogoSection';
 
 function App() {
   return (
     <LandingPage>
       <BackgroundComposition />
       <HeaderBar/>
+      <LogoSection/>
       <IconOnly/>
       <BestPractice/>
       <ColorPalette/>

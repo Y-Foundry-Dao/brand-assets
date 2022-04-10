@@ -18,7 +18,6 @@ function BestPractice () {
                 <Brand src={VersionD} alt="version_d" />
             </Gallery>
         </Section>
-
     );
 }
 
@@ -53,7 +52,7 @@ const Title = styled.h2`
 `
 const Description = styled.h3`
   // mobile view
-  width: 80%;
+  width: 75%;
   margin: 10px;
   text-align: center;
   font-size: 14px;
@@ -66,23 +65,22 @@ const Description = styled.h3`
 `
 const Gallery = styled.div`
   // mobile view
-  padding: 20px;
   flex-direction: column;
   justify-content: center;
+  display: flex;
   @media(min-width: 756px){
-    padding: 20px;
+    padding-top: 20px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
   }
   @media(min-width: 1024px){
-    grid-gap: 25px;
+    grid-gap: 30px;
   }
 `
 const Brand = styled.img`
-    padding: 20px;  
-    width: 240px;
-    
+  padding: 20px;  
+  width: 240px;
   @media(min-width: 756px){
     padding: 25px;  
     width: 70%;

@@ -20,6 +20,8 @@ function ColorPalette() {
             <Label><Underline>Main</Underline> Colors</Label>
             <Gallery>
                 <Image src={black} alt="black"/>
+                <Text>HELLOOOOO</Text>
+                
                 <Image src={orange} alt="orange"/>
                 <Image src={tan} alt="tan"/>
                 <Image src={cream} alt="cream"/>
@@ -94,7 +96,7 @@ const Label = styled.h3`
 `
 const Underline = styled.h3`
     font-weight: 100;
-    border-bottom: 5px solid ${props => `${props.theme.colors.orange}`};
+    border-bottom: 4px solid ${props => `${props.theme.colors.orange}`};
     display:inline
 `
 const Gallery = styled.div`
@@ -112,6 +114,7 @@ const Gallery = styled.div`
 `
 
 const Image = styled.img`
+  position: relative;
   padding: 20px;
   width: 30%;
   @media(min-width: 756px){
@@ -126,6 +129,11 @@ const Image = styled.img`
     width: 80%;
     width: 290px;
   }
+`
+const Text = styled.h3`
+    position: absolute;
+    top: 0px;
+    left: 0px;
 `
 
 export default ColorPalette;
