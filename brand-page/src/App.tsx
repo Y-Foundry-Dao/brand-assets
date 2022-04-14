@@ -18,7 +18,7 @@ function App() {
       <BestPractice/>
       <ColorPalette/>
       <Typograpghy/>
-      <Preview/>
+      {/* <Preview/> */}
     </LandingPage>
 
 
