@@ -54,6 +54,9 @@ const DownloadSection = styled.section`
     align-items: center;
     gap: 0px;
   }
+  @media(min-width: 2560px){
+    padding-left: 10%;
+  }
 `
 
 const Subtitle = styled.h3`

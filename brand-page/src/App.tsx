@@ -6,6 +6,7 @@ import BackgroundComposition from 'components/sections/background/BackgroundComp
 import BestPractice from 'components/sections/BestPractice';
 import ColorPalette from 'components/sections/ColorPalette';
 import LogoSection from 'components/sections/LogoSection';
+import Preview from 'components/sections/Preview';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <BestPractice/>
       <ColorPalette/>
       <Typograpghy/>
+      <Preview/>
     </LandingPage>
 
 

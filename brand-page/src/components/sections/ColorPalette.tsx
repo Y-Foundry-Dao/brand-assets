@@ -1,14 +1,5 @@
 import styled from "styled-components";
-import black from 'assets/color_palette/main_colors/black.svg';
-import orange from 'assets/color_palette/main_colors/orange.svg';
-import tan from 'assets/color_palette/main_colors/tan.svg';
-import cream from 'assets/color_palette/main_colors/cream.svg';
-import color202833 from 'assets/color_palette/grey_scale/color202833.svg';
-import color6D7989 from 'assets/color_palette/grey_scale/color6D7989.svg';
-import colorAEBBCD from 'assets/color_palette/grey_scale/colorAEBBCD.svg';
-import colorD5DCE5 from 'assets/color_palette/grey_scale/colorD5DCE5.svg';
-
-
+import Color from 'components/Color'
 
 
 function ColorPalette() {
@@ -19,19 +10,17 @@ function ColorPalette() {
             <Description>The elegant colors and tones of "Y-Foundry" capture a playful aspect in contrast to its spatial concept.</Description>
             <Label><Underline>Main</Underline> Colors</Label>
             <Gallery>
-                <Image src={black} alt="black"/>
-                <Text>HELLOOOOO</Text>
-                
-                <Image src={orange} alt="orange"/>
-                <Image src={tan} alt="tan"/>
-                <Image src={cream} alt="cream"/>
+              <Color color={'#040307'} desc1="C:43" desc2="M:57" desc3="Y:0" desc4="K:97" desc5="R:4" desc6="G:3" desc7="B:7"/>
+              <Color color={'#D8552A'} desc1="C:0" desc2="M:61" desc3="Y:81" desc4="K:15" desc5="R:216" desc6="G:85" desc7="B:42"/>
+              <Color color={'#D7B9A3'} textColor='#040307' desc1="C:0" desc2="M:14" desc3="Y:24" desc4="K:16" desc5="R:215" desc6="G:185" desc7="B:183"/>
+              <Color color={'#FCFEFF'} textColor='#040307' desc1="C:1" desc2="M:0" desc3="Y:0" desc4="K:0" desc5="R:252" desc6="G:254" desc7="B:255"/>
             </Gallery>
             <Label><Underline>Grey</Underline> Scale</Label>
             <Gallery>
-                <Image src={color202833} alt="color202833"/>
-                <Image src={color6D7989} alt="color6D7989"/>
-                <Image src={colorAEBBCD} alt="colorAEBBCD"/>
-                <Image src={colorD5DCE5} alt="colorD5DCE5"/>
+              <Color color={'#202833'} desc1="C:37" desc2="M:22" desc3="Y:0" desc4="K:80" desc5="R:32" desc6="G:40" desc7="B:51"/>
+              <Color color={'#6D7989'} desc1="C:20" desc2="M:12" desc3="Y:0" desc4="K:46" desc5="R:109" desc6="G:121" desc7="B:137"/>
+              <Color color={'#AEBBCD'} textColor='#040307' desc1="C:0" desc2="M:9" desc3="Y:0" desc4="K:20" desc5="R:174" desc6="G:185" desc7="B:183"/>
+              <Color color={'#D5DCE5'} textColor='#040307' desc1="C:1" desc2="M:0" desc3="Y:0" desc4="K:0" desc5="R:252" desc6="G:254" desc7="B:255"/>
             </Gallery>
         </Section>
     );
@@ -81,17 +70,24 @@ const Description = styled.h3`
 const Label = styled.h3`
   // mobile view
   width: 80%;
-  padding: 5px;
-
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 100;
-  display:inline
+  text-align: center;
   @media(min-width: 768px){
-    font-size: 18px;
+    text-align: left;
+    padding-left: 0px;
+    font-size: 16px;
   }
   @media(min-width: 1024px){
     width: 90%;
+    padding-left: 25px;
     font-size: 24px;
+  }
+  @media(min-width: 1440px){
+    padding-left: 50px;
+  }
+  @media(min-width: 2560px){
+    padding-left: 680px;
   }
 `
 const Underline = styled.h3`
@@ -101,39 +97,18 @@ const Underline = styled.h3`
 `
 const Gallery = styled.div`
   // mobile view
-  padding: 0px;
-  padding-left: 10%;
-  flex-direction: row;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
   @media(min-width: 756px){
-    padding: 20px;
+    flex-direction: row;
   }
   @media(min-width: 1024px){
     grid-gap: 25px;
   }
-`
-
-const Image = styled.img`
-  position: relative;
-  padding: 20px;
-  width: 30%;
-  @media(min-width: 756px){
-  padding: 25px;  
-  width: 70%;
-  width: 100px;
-  }
-  @media(min-width: 1024px){
-    width: 190px;
-  }
   @media(min-width: 1440px){
-    width: 80%;
-    width: 290px;
+    grid-gap: 60px;
   }
-`
-const Text = styled.h3`
-    position: absolute;
-    top: 0px;
-    left: 0px;
 `
 
 export default ColorPalette;
