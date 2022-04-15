@@ -1,7 +1,7 @@
 import {useState, useRef} from 'react';
-import BurgerIcon from './BurgerIcon';
-import useOnClickOutside from '../../../../utilities/useOnClickOutside';
-import BurgerMenu from './BurgerMenu';
+import BurgerIcon from 'components/sections/navigation/burger/BurgerIcon';
+import useOnClickOutside from 'utilities/useOnClickOutside';
+import BurgerMenu from 'components/sections/navigation/burger/BurgerMenu';
 
 
 function Burger() {

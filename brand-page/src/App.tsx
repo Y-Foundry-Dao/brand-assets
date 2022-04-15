@@ -1,18 +1,24 @@
 import styled from 'styled-components';
-import HeaderBar from "./components/sections/navigation/HeaderBar";
-import IconOnly from "./components/IconOnly";
-import Typograpghy from "./components/Typography";
-import BackgroundComposition from './components/sections/background/BackgroundComposition';
-import BestPractice from './components/BestPractice';
+import HeaderBar from 'components/sections/navigation/HeaderBar';
+import IconOnly from 'components/sections/IconOnly';
+import Typograpghy from 'components/sections/Typography';
+import BackgroundComposition from 'components/sections/background/BackgroundComposition';
+import BestPractice from 'components/sections/BestPractice';
+import ColorPalette from 'components/sections/ColorPalette';
+import LogoSection from 'components/sections/LogoSection';
+import Preview from 'components/sections/Preview';
 
 function App() {
   return (
     <LandingPage>
       <BackgroundComposition />
       <HeaderBar/>
+      <LogoSection/>
       <IconOnly/>
       <BestPractice/>
+      <ColorPalette/>
       <Typograpghy/>
+      {/* <Preview/> */}
     </LandingPage>
 
 

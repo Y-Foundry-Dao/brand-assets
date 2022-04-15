@@ -1,6 +1,5 @@
 import styled from 'styled-components';
-import download_icon from '../assets/download_icon.svg';
-
+import download_icon from 'assets/download_icon.svg';
 
 
 function DownloadButton(props: any) {
