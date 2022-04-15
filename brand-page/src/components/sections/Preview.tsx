@@ -1,9 +1,8 @@
 import styled from "styled-components";
-import Middle from 'assets/Middle.svg'
-import First from 'assets/First.svg'
-import Last from 'assets/Last.svg'
-
-
+import Middle from 'assets/Middle.svg';
+import First from 'assets/First.svg';
+import Last from 'assets/Last.svg';
+import DownloadButton from "components/DownloadButton";
 
 function Preview () {
     return (
@@ -15,11 +14,11 @@ function Preview () {
                 <MiddlePic src={Middle} alt="version_b" />
                 <LastPic src={Last} alt="version_c" />
             </Gallery>
-
+            <DownloadButton name="FREE DOWNLOAD" download_file={require("../../assets/PreviewApp.zip")} download_title={downloadName} />
         </Section>
     );
 }
-
+const downloadName = 'PreviewYFD.zip'
 const Orange = styled.span`
   color: ${props => `${props.theme.colors.orange}`};
 `
@@ -54,20 +53,61 @@ const Gallery = styled.div`
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding: 5% 0px 5%;
   @media(min-width: 756px){
-    padding-top: 20px;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: repeat(2, 1fr);
   }
   @media(min-width: 1024px){
-    grid-gap: 30px;
   }
 `
 const FirstPic = styled.img`
+  position: relative;
+  padding: 0px 0px 50px 0%;
+  z-layer: -1;
+  width: 80px;
+  @media(min-width: 768px){
+    width: 250px;
+    padding: 30px 0px 73.48px 0%;
+  }
+  @media(min-width: 1024px){
+    width: 355px;
+    padding: 61px 0px 73.48px 0px;
+  }
+  @media(min-width: 2560px){
+    width: 800px;
+    padding: 60px 0px 73.48px 0px;
+  }
 `
 const MiddlePic = styled.img`
+z-layer: 1;
+display: flex;
+position: absolute;
+width: 180px;
+  @media(min-width: 768px){
+    width: 400px;
+  }
+  @media(min-width: 1024px){
+    width: 611px;
+  }
+  @media(min-width: 2560px){
+    width: 900px;
+  }
 `
 const LastPic = styled.img`
+  position: relative;
+  padding: 0px 0px 50px 40%;
+  z-layer: 0;
+  width: 80px;
+  @media(min-width: 768px){
+    width: 250px;
+    padding: 30px 0px 73.48px 30%;
+  }
+  @media(min-width: 1024px){
+    width: 355px;
+    padding: 61px 0px 73.48px 40%;
+  }
+  @media(min-width: 2560px){
+    width: 800px;
+    padding: 60px 0px 73.48px 25%;
+  }
 `
 export default Preview;
