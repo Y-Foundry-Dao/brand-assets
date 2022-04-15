@@ -35,8 +35,8 @@ const Section: React.FC <StyledProps> = styled.div<StyledProps>`
   mix-blend-mode: pass-through;
   color: ${props => props.textColor };
   @media(min-width: 756px){
-    width: 160.36px;
-    height: 160.36px;  
+    width: 150.36px;
+    height: 150.36px;  
     margin: 5px;
   }
   @media(min-width: 1024px){
