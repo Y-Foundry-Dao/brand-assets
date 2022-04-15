@@ -3,9 +3,19 @@
   "name": "Y-Foundry DAO Brand Assets Page",
   "icons": [
     {
-      "src": "favicon.png",
-      "sizes": "64x64",
-      "type": "image/png"
+      "src": "logo-64-orange-transparent-square.png",
+      "type": "image/png",
+      "sizes": "64x64"
+    },
+    {
+      "src": "logo-192-orange-transparent-square.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo-512-orange-transparent-square.png",
+      "type": "image/png",
+      "sizes": "512x512"
     }
   ],
   "start_url": ".",
