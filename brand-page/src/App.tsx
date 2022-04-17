@@ -5,6 +5,7 @@ import Typograpghy from 'components/sections/Typography';
 import BackgroundComposition from 'components/sections/background/BackgroundComposition';
 import BestPractice from 'components/sections/BestPractice';
 import ColorPalette from 'components/sections/ColorPalette';
+import HeroSection from 'components/sections/HeroSection';
 import LogoSection from 'components/sections/LogoSection';
 import Preview from 'components/sections/Preview';
 
@@ -13,6 +14,7 @@ function App() {
     <LandingPage>
       <BackgroundComposition />
       <HeaderBar/>
+      <HeroSection/>
       <LogoSection/>
       <IconOnly/>
       <BestPractice/>
