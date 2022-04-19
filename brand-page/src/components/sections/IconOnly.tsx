@@ -43,7 +43,7 @@ const Main = styled.section`
 
 const DownloadSection = styled.section`
   // mobile view
-  padding: 10px;
+  padding-top: 10px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -52,10 +52,11 @@ const DownloadSection = styled.section`
   @media(min-width: 768px){
     flex-direction: row;
     align-items: center;
-    gap: 0px;
+    gap: 60px;
+    padding-right: 50px;
   }
   @media(min-width: 2560px){
-    padding-left: 10%;
+    padding-right: 100px;
   }
 `
 
