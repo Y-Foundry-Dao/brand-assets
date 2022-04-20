@@ -14,7 +14,6 @@ function DownloadButton(props: any) {
 }
 
 const Link = styled.a`
-  width: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -34,6 +33,7 @@ const Button = styled.button`
   background-color: ${props => `${props.theme.colors.blue}`};
   color: ${props => `${props.theme.colors.white}`};
   padding:10px, 32px;
+  cursor: pointer;
   @media(min-width: 768px){
     width: 200px;
     height: 44px;
