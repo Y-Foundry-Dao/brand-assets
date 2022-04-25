@@ -85,7 +85,7 @@ const socialInfo = {
     text: "telegram"
   },
   twitter: {
-    link: "https://twitter.com/yieldfoundrydao", 
+    link: "https://twitter.com/YFoundryDAO", 
     iconVision: <StyledTwitterVision />,
     iconFooter: <StyledTwitterFooter />,
     text: "twitter"

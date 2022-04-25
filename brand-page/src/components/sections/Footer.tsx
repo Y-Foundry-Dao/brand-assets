@@ -33,11 +33,11 @@ const Img = styled.img`
 `
 
 const Footer = styled.footer`
-  padding-top: 10%;
   height:55px;
-  width:100%;
+  width:90%;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 6%;
   @media(min-width: 425px){
     margin-bottom: 4%;
   }
@@ -49,6 +49,7 @@ const Footer = styled.footer`
   }
   @media(min-width: 1024px){
     margin-bottom: 1%;
+    width:80%;
     height:60px;
   }
 `
