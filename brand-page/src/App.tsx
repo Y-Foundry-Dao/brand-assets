@@ -8,7 +8,7 @@ import ColorPalette from 'components/sections/ColorPalette';
 import HeroSection from 'components/sections/HeroSection';
 import LogoSection from 'components/sections/LogoSection';
 import Preview from 'components/sections/Preview';
-
+import Footer from 'components/sections/Footer';
 function App() {
   return (
     <LandingPage>
@@ -21,6 +21,7 @@ function App() {
       <ColorPalette/>
       <Typograpghy/>
       <Preview/>
+      <Footer/>
     </LandingPage>
 
 
