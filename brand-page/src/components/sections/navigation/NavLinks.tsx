@@ -4,10 +4,10 @@ function NavLinks() {
   return (
     <Nav>
       <Ul>
-        <li><StyledLink >about</StyledLink></li>
-        <li><StyledLink >blog</StyledLink></li>
-        <li><StyledLink >join community</StyledLink></li>
-        <li><StyledLink >brand kit</StyledLink></li>
+        <li><StyledLink href="https://yfoundry.io/#about" >about</StyledLink></li>
+        <li><StyledLink href="https://yfoundry.io/#medium" >medium</StyledLink></li>
+        <li><StyledLink href="https://yfoundry.io/#community" >join community</StyledLink></li>
+        <li><StyledLink href="https://yfoundry.io/#roadmap" >roadmap</StyledLink></li>
       </Ul>
     </Nav>
   )
