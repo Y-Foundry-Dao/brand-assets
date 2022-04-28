@@ -11,10 +11,10 @@ function Menu(props:Props) {
   return (
     <StyledMenu open={open}>
       <Ul>
-        <Li onClick={() => setOpen(!open)}><Link href="#about">about</Link></Li>
-        <Li onClick={() => setOpen(!open)}><Link href="#blog">blog</Link></Li>
-        <Li onClick={() => setOpen(!open)}><Link href="#community">join community</Link></Li>
-        <Li onClick={() => setOpen(!open)}><Link href="#community">brand kit</Link></Li>
+        <Li onClick={() => setOpen(!open)}><Link href="https://yfoundry.io/#about">about</Link></Li>
+        <Li onClick={() => setOpen(!open)}><Link href="https://yfoundry.io/#blog">blog</Link></Li>
+        <Li onClick={() => setOpen(!open)}><Link href="https://yfoundry.io/#community">join community</Link></Li>
+        <Li onClick={() => setOpen(!open)}><Link href="https://yfoundry.io/#roadmap">roadmap</Link></Li>
       </Ul>
     </StyledMenu>
   )

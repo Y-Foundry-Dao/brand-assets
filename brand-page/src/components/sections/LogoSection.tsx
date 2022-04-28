@@ -99,23 +99,26 @@ const Desc = styled.h4`
   text-align: center;
   @media(min-width: 375px){
     width: 65%;
+    text-align: justify;
   }
   @media(min-width: 425px){
-    width: 60%;
+    width: 58%;
+    text-align: justify;
   }
   @media(min-width: 768px){
     font-size: 14px;
-    width: 80%;
+    width: 64%;
+    text-align: justify;
   }
   @media(min-width: 1024px){
     font-size: 14px;
-    width: 65%;
-    text-align: left;
+    width: 55%;
+    text-align: justify;
   }
   @media(min-width: 1440px){
     font-size: 16px;
-    width: 67%;
-    text-align: left;
+    width: 65%;
+    text-align: justify;
   }
 `
 
